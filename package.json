@@ -1,0 +1,33 @@
+{
+  "name": "fettes_backend",
+  "version": "1.0.0",
+  "description": "personal webpage backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fettes/Fettes_BackEnd.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "sequelize"
+  ],
+  "author": "Fettes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fettes/Fettes_BackEnd/issues"
+  },
+  "homepage": "https://github.com/Fettes/Fettes_BackEnd#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.2",
+    "sequelize": "^6.8.0",
+    "sqlite3": "^5.0.2"
+  }
+}
